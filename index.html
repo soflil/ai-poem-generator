@@ -22,18 +22,22 @@
       </header>
 
       <main>
-        <form class="submit-form">
-          <input
-            type="text"
-            placeholder="Enter poem topic..."
-            autofocus="on"
-            required="on"
-            class="text-input"
-          />
-          <input type="submit" value="Submit" class="submit-button" />
-        </form>
+        <div class="form-wrapper">
+          <form class="submit-form">
+            <input
+              type="text"
+              placeholder="Enter poem topic..."
+              autofocus="on"
+              required="on"
+              class="text-input"
+            />
+            <input type="submit" value="Submit" class="submit-button" />
+          </form>
 
-        <div class="poem" id="poem"></div>
+          <div class="hint">i.e. flower, night, sunbeam, snow</div>
+        </div>
+
+        <div class="poem hidden" id="poem"></div>
       </main>
 
       <footer>
