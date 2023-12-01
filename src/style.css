@@ -54,13 +54,15 @@ form .submit-button:hover {
 }
 
 main .poem {
-  font-size: 16px;
+  font-size: 14px;
+  text-align: left;
+  font-weight: 600;
   color: #dad8e3;
   background-color: #5c5370;
   border-left: 4px solid #2a2438;
   border-radius: 2px;
   padding: 20px;
-  line-height: 2;
+  line-height: 1.5;
   margin-bottom: 30px;
 }
 
